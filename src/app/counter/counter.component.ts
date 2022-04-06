@@ -26,7 +26,7 @@ export class CounterComponent implements OnInit {
  
   decrement() {
     this.store.dispatch(decrement());
-    console.log('topolino')
+    console.log('topolino');
   }
  
   reset() {
