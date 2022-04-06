@@ -25,6 +25,8 @@ export class CounterComponent implements OnInit {
  
   decrement() {
     this.store.dispatch(decrement());
+    console.log(pippo);
+    
   }
  
   reset() {
