@@ -21,13 +21,12 @@ export class CounterComponent implements OnInit {
 
   increment() {
     this.store.dispatch(increment());
-    console.log(pippo);
+    console.log("pippo");
   }
  
   decrement() {
     this.store.dispatch(decrement());
-    
-    
+    console.log('pluto')
   }
  
   reset() {
